@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         .setBigContentTitle("Notification Updated!"));
 
                 mNotifyManager.notify(NOTIFICATION_ID, notifyBuilder.build());
-             
+
 
 
                 //Update the notification
