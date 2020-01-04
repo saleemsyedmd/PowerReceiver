@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="62dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text=" Network Type Required!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <RadioGroup
+            android:id="@+id/networkOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+            <Button1
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:onClick="scheduleJob"
+                android:text="Schedule Job" />
+
+            <Button2
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:onClick="cancelJob"
+                android:text="Cancel Job" />
+
+
+
+        <RadioButton1
+
+            android:id="@+id/noNetwork"
+            android:checked="true"
+            android:text="None" />
+
+        <RadioButton2
+
+            android:id="@+id/anyNetwork"
+            android:text="Any" />
+
+        <RadioButton3
+
+            android:id="@+id/wifiNetwork"
+            android:text="Any" />
+
+        <Button1
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dp"
+            android:onClick="scheduleJob"
+            android:text="Schedule Job" />
+
+        <Button2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dp"
+            android:onClick="cancelJob"
+            android:text="Cancel Job" />
+    </RadioGroup>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
